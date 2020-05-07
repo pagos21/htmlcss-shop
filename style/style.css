@@ -52,6 +52,10 @@
   display: block;
 }
 
+.heart{
+  display: none;
+}
+
 .i_bk2 {
   position: relative;
   display: inline-block;
@@ -66,14 +70,6 @@
   display: inline-block;
   width: 100%;
   left: 5%;
-  top: 5%;
-  display: block;
-}
-
-.i_bk3 {
-  position: relative;
-  display: inline-block;
-  width: 80%;
   top: 5%;
   display: block;
 }
@@ -97,4 +93,8 @@
   top: 0;
   right: 0;
   display: inline-block;
+}
+
+.rows:hover, .s_rows:hover{
+  background-color: red;
 }
