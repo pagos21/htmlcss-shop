@@ -84,6 +84,25 @@
 }
 
 
+.i_bk5 {
+  position: relative;
+  display: inline-block;
+  width: 80%;
+  left: 5%;
+  top: 5%;
+  display: block;
+}
+
+
+.i_bk6 {
+  position: relative;
+  display: inline-block;
+  width: 70%;
+  left: 15%;
+  top: 15%;
+  display: block;
+}
+
 .discr{
   background-color: red;
   width: 27px;
