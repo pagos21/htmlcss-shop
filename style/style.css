@@ -19,6 +19,8 @@
   position: relative;
   left: 10px;
   top: 10px;
+  justify-content: center;
+  align-items: center;
   /* z-index: 99; */
 }
 
@@ -30,6 +32,7 @@
   position: relative;
   left: 10px;
   top: 30px;
+  margin-bottom: 80px;
   /* z-index: 99; */
 }
 
@@ -50,14 +53,15 @@
   position: relative;
   display: inline-block;
   width: 100%;
+  top: 8%;
   display: block;
 }
 
 .i_bk2 {
+  margin: auto;
   position: relative;
   display: inline-block;
   width: 50%;
-  left: 25%;
   top: 20%;
   display: block;
 }
@@ -66,7 +70,7 @@
   position: relative;
   display: inline-block;
   width: 100%;
-  top: 20%;
+  top: 30%;
   left: 5%;
   display: block;
 }
@@ -75,7 +79,7 @@
   position: relative;
   display: inline-block;
   width: 80%;
-  left: 5%;
+  left: 1%;
   top: 5%;
   display: block;
 }
