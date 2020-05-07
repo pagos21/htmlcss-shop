@@ -109,6 +109,7 @@
 
 .heart{
   display: none;
+  color: red;
 }
 
 .rows:hover .heart{
