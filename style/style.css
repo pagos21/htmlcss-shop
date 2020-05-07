@@ -8,6 +8,7 @@
 #bg {
   background-image: url(../img/bg.png);
   background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .rows {
@@ -21,7 +22,7 @@
   /* z-index: 99; */
 }
 
-.s_rows {
+.s_row {
   background-color: #dedede;
   width: 30%;
   height: 400px;
@@ -61,15 +62,6 @@
   display: block;
 }
 
-.i_bk3 {
-  position: relative;
-  display: inline-block;
-  width: 100%;
-  left: 5%;
-  top: 5%;
-  display: block;
-}
-
 .i_bk4 {
   position: relative;
   display: inline-block;
@@ -78,7 +70,6 @@
   left: 5%;
   display: block;
 }
-
 
 .i_bk5 {
   position: relative;
@@ -109,7 +100,6 @@
   display: inline-block;
 }
 
-
 .heart{
   position: absolute;
   bottom: 0;
@@ -125,6 +115,6 @@
   display: block;
 }
 
-.s_rows:hover .heart{
+.s_row:hover .heart{
   display: block;
 }
