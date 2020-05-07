@@ -52,14 +52,6 @@
   display: block;
 }
 
-.heart{
-  opacity: 0;
-  position: absolute;
-  bottom: 0;
-  left: 50%
-
-}
-
 .i_bk2 {
   position: relative;
   display: inline-block;
@@ -117,7 +109,26 @@
   display: inline-block;
 }
 
-.rows:hover, .heart:hover{
-  background-color: red;
-  opacity: 1;
+
+.heart{
+  position: absolute;
+  bottom: 0;
+  left: 50%
+
+}
+
+.rows .heart{
+  display: none;
+}
+
+.s_rows .heart{
+  display: none;
+}
+
+.rows:hover .heart{
+  display: block;
+}
+
+.s_rows:hover .heart{
+  display: block;
 }
