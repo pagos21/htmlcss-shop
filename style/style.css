@@ -112,6 +112,7 @@
   color: red;
 }
 
+/* per eseguire l'hover */
 .rows:hover .heart{
   display: block;
 }
