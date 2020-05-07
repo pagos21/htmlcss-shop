@@ -117,11 +117,7 @@
 
 }
 
-.rows .heart{
-  display: none;
-}
-
-.s_rows .heart{
+.heart{
   display: none;
 }
 
