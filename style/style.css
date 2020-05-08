@@ -11,6 +11,12 @@
   background-repeat: no-repeat;
 }
 
+/* #contenitore {
+  width: 80%;
+  margin:10px auto;
+  height: 200px;
+} */
+
 .rows {
   background-color: #dedede;
   width: 30%;
@@ -19,7 +25,6 @@
   position: relative;
   left: 10px;
   top: 10px;
-  justify-content: center;
   align-items: center;
   /* z-index: 99; */
 }
@@ -42,6 +47,7 @@
   width: 28px;
   height: 18px;
   font-size: 13px;
+  padding: 3px;
   position: absolute;
   top: 0;
   right: 0;
@@ -105,20 +111,20 @@
 }
 
 .heart{
-  position: absolute;
-  bottom: 0;
-  left: 50%
-
-}
-
-.heart{
   display: none;
   color: red;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  /* Perchè?  il blocco figlio deve essere tutta la grandezza del blocco parente */
+  width: 100%;
+  text-align: center;
 }
 
 /* per eseguire l'hover!!!*/
 .rows:hover .heart{
   display: block;
+
 }
 
 .s_row:hover .heart{
